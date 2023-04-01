@@ -16,9 +16,11 @@ router.get("/products", productController.getAllProducts)
 // Obtener un producto específico
 
 // Añadir un producto
+router.post("/product", productController.addProduct)
+
 
 // Eliminar un producto
-router.delete("/products", productController.deleteProduct)
+router.delete("/product/:id", productController.deleteProduct)
 // Modificar producto
 
 module.exports = router;

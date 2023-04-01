@@ -1,7 +1,7 @@
 const app = require('./app')
 const { connect } = require('http2');
 const port = 8453;
-const dbURL = 'mongodb+srv://rickypaez:46295865a@ricky41.qerb1lt.mongodb.net/?retryWrites=true&w=majority'
+const dbURL = 'mongodb+srv://rickypaez:46295865a@ricky41.qerb1lt.mongodb.net/eit-61543?'
 
 const mongoose = require('mongoose');
 
